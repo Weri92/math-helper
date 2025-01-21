@@ -1,0 +1,10 @@
+/* Existing styles here... */
+.solution {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+canvas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
