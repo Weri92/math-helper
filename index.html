@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Helper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chart.js/3.7.1/chart.min.js"></script> <!-- Chart.js library -->
+</head>
+<body>
+    <div class="container">
+        <h1>Math Helper</h1>
+        <select id="problemType">
+            <option value="arithmetic">Arithmetic</option>
+            <option value="geometry">Geometry</option>
+            <option value="fractions">Fractions</option>
+            <option value="decimals">Decimals</option>
+        </select>
+        <textarea id="mathInput" placeholder="Type your math problem here..."></textarea>
+        <button id="solveBtn">Solve!</button>
+        <div id="solution" class="solution"></div>
+        <canvas id="graphCanvas" width="400" height="400" style="display:none;"></canvas>
+    </div>
+    <script src="script.js"></script>
+    <script src="graph.js"></script>
+</body>
+</html>
